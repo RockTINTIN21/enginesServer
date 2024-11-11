@@ -1,0 +1,9 @@
+const serverConfig = {
+    mongoURI: 'Здесь укажите mongoURI', // Для подключения к БД
+    serverIP: 'localhost:3000', // ip бэкэнд сервера
+    backendPort: '3000',
+    frontendIP: 'localhost:5173', // ip frontend сервера
+    login: 'логин', //Логин для входа на сайт
+    password: 'пароль', //Пароль для входа на сайт
+};
+export default serverConfig;
